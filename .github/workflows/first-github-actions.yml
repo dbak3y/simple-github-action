@@ -1,0 +1,9 @@
+name: Run Shell commands
+on: [push]
+
+jobs:
+  run-Shell-commands:
+    runs-on: ubuntu -latest
+    steps:
+      -name: Echo a String
+      run: echo " Hello Security Gurus!! This is our first Github Actions Workflow file"
